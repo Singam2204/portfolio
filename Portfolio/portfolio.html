@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<style>
+    body{
+    background-image: url("background.jpg");
+}
+nav{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+
+}
+a{
+    margin-left:110px;
+    text-decoration: none;
+    color:white;
+    font-size: 22px;
+    padding:5px;
+   
+}
+a:hover{
+    color:yellow;
+}
+p{
+    color:red;
+    font-size:30px;
+    
+}
+main{
+   margin-top: 10%;
+   font-size: 30px;
+   color:white;
+   margin-left:10%;
+   
+}
+h3{
+    font-family: monospace;
+    letter-spacing: 3px;
+}
+h2{
+    letter-spacing: 2px;
+}
+span{
+    color:yellow;
+    font-weight: bold;
+}
+.about{
+    background-color: rgb(24, 22, 22);
+}
+.about:hover{
+    color:white;
+}
+</style>
+<body>
+    <nav class="row">
+        <div><p>Portfolio</p></div>
+        <div class="col-md-6">
+        <a href="portfolio.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="skill.html">Skills</a>
+        <a href="contact.html">Contact</a>
+        
+    </div>
+</nav>
+<main>
+    <h3>Hello,my name is</h3>
+    <h2>Singam Snehalatha</h2>
+    And I'm a <span>Web Developer.</span> <br> <br>
+    <a href="about.html" class="about">About Me</a>
+</main>
+</body>
+</html>
